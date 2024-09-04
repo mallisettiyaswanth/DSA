@@ -13,7 +13,7 @@ class Solution {
 
     public int numIslands(char[][] grid) {
         int[][] vis = new int[grid.length][grid[0].length];
-        int[] delRow = {-1, 0, 1, 0};
+        int[] delRow = {-1, 0, 1, 0};-
         int[] delCol = {0, 1, 0, -1};
         int cnt = 0;
         for(int i = 0; i < grid.length; i++) {
