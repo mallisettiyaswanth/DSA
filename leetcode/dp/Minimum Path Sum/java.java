@@ -14,8 +14,6 @@ class Solution {
     }
 }
 
-
-
 // memoization
 class Solution {
     private int minPathCost(int[][] grid, int m, int n, int i, int j, int[][] dp) {
