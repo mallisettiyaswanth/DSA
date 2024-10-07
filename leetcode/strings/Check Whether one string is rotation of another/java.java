@@ -4,7 +4,6 @@ class Solution {
         int n = goal.length();
         if(m != n) return false;
         String gs = goal + goal;
-
         return gs.contains(s);
     }
 }
